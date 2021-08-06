@@ -1,0 +1,50 @@
+{
+  "name": "bot-whatsapp-light",
+  "version": "1.0.0",
+  "description": "Lightweight bot WhatsApp using Baileys",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dngda/bot-whatsapp-light.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "lightweight",
+    "websocket",
+    "baileys",
+    "sticker",
+    "bot-whatsapp",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "dngda",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dngda/bot-whatsapp-light/issues"
+  },
+  "homepage": "https://github.com/dngda/bot-whatsapp-light#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "awesome-phonenumber": "^2.55.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "figlet": "^1.5.0",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.33",
+    "yt-search": "^2.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
